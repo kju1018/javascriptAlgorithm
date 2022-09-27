@@ -1,6 +1,6 @@
 function solution(board, moves) {
   let answer = 0;
-  const depth = board[0].length;
+  const depth = board.length;
   let stack = [];
   for(let x of moves) {
     let item = 0;
